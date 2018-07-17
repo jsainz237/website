@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>jsainz</title>
+        <link rel="stylesheet" href="main_menu.css">
+    </head>
+    <body>
+        <header>
+            <div class="main-page content-hidden">
+                <!--<h1 data-text="JSAINZ" class="Logo">J<span class="LogoS">S</span>AINZ</h1>-->
+                <ul class="Logo fly-in-text">
+                    <li>J</li
+                    ><li style="color: #6499a5">S</li
+                    ><li>A</li
+                    ><li>I</li
+                    ><li>N</li
+                    ><li>Z</li>
+                </ul>
+                <!--<div class="nav">-->
+                    <!--<ul>-->
+                        <!--<li><a href="projects.html">home</a></li>-->
+                        <!--<li>||</li>-->
+                        <!--<li><a href="#" class="nav-link">programming</a></li>-->
+                        <!--<li>||</li>-->
+                        <!--<li><a href="#" class="nav-link">design</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            </div>
+        </header>
+
+        <div class="info content-hidden">
+            <a class="enter-text" href="../HomeTemp/HomeTemp.html">| click here to enter site |</a>
+        </div>
+
+        <!--<script src="../Xtras/jquery.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(function () {
+                var mainPage = $('.main-page');
+                var information = $('.info');
+
+                setTimeout(function () {
+                    mainPage.removeClass('content-hidden');
+                    information.removeClass('content-hidden')
+                }, 800);
+
+            })
+        </script>
+
+    </body>
+</html>
