@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Adam;
+    src: url("Fonts/Adam copy.otf");
+}
+
 .Logo {
     font-family: Adam;
     font-weight: bolder;
